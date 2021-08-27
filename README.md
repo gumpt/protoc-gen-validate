@@ -451,8 +451,7 @@ Check the [constraint rule comparison matrix](rule_comparison.md) for language-s
   bytes x = 1 [(validate.rules).bytes.contains = "baz"];
   ```
 
-- **in/not_in**: these two rules permit specifying allow/denylists
--  for the values of a field.
+- **in/not_in**: these two rules permit specifying allow/denylists for the values of a field.
 
   ```protobuf
   // x must be either "foo", "bar", or "baz"
